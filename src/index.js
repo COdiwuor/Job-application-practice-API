@@ -63,7 +63,7 @@ function showJobDetails(job) {
         <h3>${job.jobTitle}</h3>
         <p><strong>Company:</strong> ${job.companyName}</p>
         <p><strong>Location:</strong> ${job.jobGeo}</p>
-        <p><strong>Job Type:</strong> ${job.jobIndustry}</p>
+        <p><strong>Job Type:</strong> ${job.jobType}</p>
         <p><strong>Description:</strong> ${job.jobDescription}</p>
         <a href="${job.url}" target="_blank">Apply Now</a>
     `;
