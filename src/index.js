@@ -60,7 +60,7 @@ function displayJobs(jobs) {
 // Display job details
 function showJobDetails(job) {
     jobDetailsContainer.innerHTML = `
-        <h3>${job.companyLogo}</h3>
+        <img src="${job.companyLogo}" alt="${job.companyName} logo" style="max-width:150px; height:auto;"/>
         <h3>${job.jobTitle}</h3>
         <p><strong>Company:</strong> ${job.companyName}</p>
         <p><strong>Location:</strong> ${job.jobGeo}</p>
