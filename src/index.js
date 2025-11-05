@@ -1,4 +1,4 @@
-const apiUrl = 'https://jobicy.com/api/v2/remote-jobs?count=20&geo=canada';
+const apiUrl = 'https://jobicy.com/api/v2/remote-jobs?count=20&geo=usa';
 const jobListingsContainer = document.getElementById('job-listings');
 const jobDetailsContainer = document.getElementById('job-details');
 const searchBar = document.getElementById('search-bar');
